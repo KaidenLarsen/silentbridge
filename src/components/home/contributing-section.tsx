@@ -38,7 +38,7 @@ export function ContributingSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Join Our Early Community</h2>
           <p className="text-lg text-muted-foreground max-w-[800px] mx-auto">
-            While we&aposre in the early research and learning phase, we&aposre building a community of 
+            While we're in the early research and learning phase, we're building a community of 
             individuals interested in shaping the future of AI-assisted AAC. Your insights and 
             expertise can help guide our development.
           </p>
