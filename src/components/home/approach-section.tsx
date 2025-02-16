@@ -26,7 +26,7 @@ const steps = [
   {
     icon: Sparkles,
     title: "Fine-Tuning for Individuals",
-    description: "Personalize the system for each user's unique communication style with real-time adjustments and learning."
+    description: "Personalize the system for each user&apos;s unique communication style with real-time adjustments and learning."
   }
 ]
 
@@ -46,7 +46,7 @@ export function ApproachSection() {
             Advancing Communication for Non-Verbal Autistic Individuals Through AI
           </h2>
           <p className="text-lg text-muted-foreground">
-            We're building a future where personalized AI systems empower non-verbal autistic individuals 
+            We&apos;re building a future where personalized AI systems empower non-verbal autistic individuals 
             to communicate more effectively, naturally, and independently.
           </p>
         </div>
@@ -90,11 +90,11 @@ export function ApproachSection() {
             <p className="text-muted-foreground">
                 SilentBridge is currently in its early conceptual phase. This vision 
                 represents our aspirational roadmap for developing AI-assisted communication tools. 
-                We're openly sharing these ideas to gather feedback, build a community of 
+                We&apos;re openly sharing these ideas to gather feedback, build a community of 
                 like-minded individuals, and work together towards making this vision a reality.
             </p>
             <p className="text-muted-foreground mt-4">
-                While we're still in the learning and planning stages, we believe in 
+                While we&apos;re still in the learning and planning stages, we believe in 
                 the potential of combining AI with AAC systems to create more intuitive 
                 and personalized communication tools. We invite researchers, developers, 
                 and AAC experts to join us in exploring these possibilities.
