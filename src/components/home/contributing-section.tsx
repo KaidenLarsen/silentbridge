@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
 import { MessagesSquare, Lightbulb, GraduationCap, Users2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -8,7 +8,7 @@ const contributions = [
   {
     icon: MessagesSquare,
     title: "Join Our Discord",
-    description: "Connect with us, share ideas, and participate in early discussions about the project's direction.",
+    description: "Connect with us, share ideas, and participate in early discussions about the project&aposs direction.",
     action: "Join Discord"
   },
   {
@@ -26,7 +26,7 @@ const contributions = [
   {
     icon: Lightbulb,
     title: "Early Input",
-    description: "Help shape the project's foundation by providing feedback on our initial concepts.",
+    description: "Help shape the project&aposs foundation by providing feedback on our initial concepts.",
     action: "Give Feedback"
   }
 ]
@@ -38,7 +38,7 @@ export function ContributingSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Join Our Early Community</h2>
           <p className="text-lg text-muted-foreground max-w-[800px] mx-auto">
-            While we're in the early research and learning phase, we're building a community of 
+            While we&aposre in the early research and learning phase, we&aposre building a community of 
             individuals interested in shaping the future of AI-assisted AAC. Your insights and 
             expertise can help guide our development.
           </p>

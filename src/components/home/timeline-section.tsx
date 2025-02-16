@@ -54,7 +54,7 @@ export function TimelineSection() {
         <div className="max-w-[800px] mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Development Timeline</h2>
           <p className="text-lg text-muted-foreground">
-            SilentBridge is an ambitious project in its early stages. Here's our roadmap 
+            SilentBridge is an ambitious project in its early stages. Here&aposs our roadmap 
             for bringing this vision to life.
           </p>
         </div>
