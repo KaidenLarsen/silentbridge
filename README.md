@@ -1,4 +1,4 @@
-# SilentBridge 🌉
+# SilentBridge 
 
 SilentBridge is an open-source AI-powered augmentative and alternative communication (AAC) platform designed to empower non-verbal autistic individuals with more natural and effective communication tools.
 
@@ -39,22 +39,6 @@ SilentBridge is currently in the research and development phase. We are:
 - **Machine Learning**: Transformers architecture (in development)
 - **Deployment**: [TBD]
 
-## Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/silentbridge.git
-
-# Install dependencies
-cd silentbridge
-npm install
-
-# Run the development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 ## Project Timeline
 
 ### Current Phase: Research & Learning (7-8 months)
@@ -81,7 +65,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Contributing
 
-We welcome contributions from developers, researchers, AAC specialists, and the autism community. Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
+For now, if you have any advice, input, or just want to follow progress, you can join our Discord: https://discord.gg/x6YHMU4fKa
 
 ## Ethics & Privacy
 
@@ -93,13 +77,13 @@ SilentBridge is committed to:
 
 ## License
 
-[License Type TBD] - See the [LICENSE](LICENSE.md) file for details.
+Anticipated MIT license. 
 
 ## Contact
 
-- Project Website: [Coming Soon]
+- Project Website: silent-bridge.org
 - GitHub Issues: [Project Issues Page]
-- Email: [TBD]
+- Email: Kaiden.larsen@silent-bridge.org
 
 ## Acknowledgments
 
