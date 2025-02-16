@@ -15,16 +15,17 @@ export const siteConfig = {
       href: "#features",  
     },
     {
-      title: "Theory",
-      href: "#vision",
-    },
-    {
-      title: "GitHub",
-      href: "https://github.com/KaidenLarsen/silentbridge",
+      title: "Approach",
+      href: "#approach",
     },
     {
       title: "Contribute",
       href: "#contribute",
     },
-  ]
+  ],
+  social: {
+    github: "https://github.com/KaidenLarsen",
+    discord: "https://discord.gg/x6YHMU4fKa", 
+    x: "placeholder", 
+  },
 }

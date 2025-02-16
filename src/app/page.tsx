@@ -1,6 +1,6 @@
 import { FeaturesSection } from "@/components/home/features-section"
 import { ContributingSection } from "@/components/home/contributing-section"
-import { VisionSection } from "@/components/home/vision-section"
+import { ApproachSection } from "@/components/home/approach-section"
 import { TimelineSection } from "@/components/home/timeline-section"
 
 import { Button } from "@/components/ui/button"
@@ -24,7 +24,7 @@ export default function Home() {
               <Link href="https://github.com/KaidenLarsen/silentbridge">View on GitHub</Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="#vision">Learn More</Link>
+              <Link href="#approach">Learn More</Link>
             </Button>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function Home() {
       <TimelineSection />
       {/* Features Section */}
       <FeaturesSection />
-      {/* Vision Section */}
-      <VisionSection />
+      {/* Approach Section */}
+      <ApproachSection />
       {/* Contributing Section */}
       <ContributingSection />
     </main>

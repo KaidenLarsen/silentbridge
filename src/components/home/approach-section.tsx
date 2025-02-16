@@ -37,9 +37,9 @@ const benefits = [
   "Strong ethical frameworks and privacy protections"
 ]
 
-export function VisionSection() {
+export function ApproachSection() {
   return (
-    <section id="vision" className="py-16">
+    <section id="approach" className="py-16">
       <div className="container">
         <div className="max-w-[800px] mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">
@@ -108,4 +108,4 @@ export function VisionSection() {
   )
 }
 
-export default VisionSection;
+export default ApproachSection;

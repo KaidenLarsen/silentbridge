@@ -60,13 +60,14 @@ export function TimelineSection() {
         </div>
 
         <Alert className="mb-8">
-          <AlertCircle className="h-4 w-4" />
-          <AlertDescription>
-            This timeline is tentative and subject to change as development progresses. 
-            Development is being balanced with university studies and work commitments.
-          </AlertDescription>
+          <div className="flex items-center justify-center gap-2">
+            <AlertCircle className="h-4 w-4 flex-shrink-0" />
+            <AlertDescription className="text-center">
+              This timeline is tentative and subject to change as development progresses. 
+              Development is being balanced with university studies and work commitments.
+            </AlertDescription>
+          </div>
         </Alert>
-
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {phases.map((phase) => (
             <Card key={phase.title} className={`border-2 ${phase.current ? 'border-primary' : ''}`}>
