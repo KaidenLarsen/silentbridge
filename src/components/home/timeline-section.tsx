@@ -75,8 +75,8 @@ export function TimelineSection() {
                 <CardTitle className="flex justify-between items-center">
                   <span>{phase.title}</span>
                   {phase.current && (
-                    <span className="text-xs bg-primary/20 text-primary px-2 py-1 rounded-full">
-                      Current Phase
+                    <span className="text-xs bg-primary/20 text-primary px-2 py-1 rounded-full text-center block w-fit ml-auto">
+                    Current Phase
                     </span>
                   )}
                 </CardTitle>
