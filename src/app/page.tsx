@@ -1,5 +1,10 @@
 import { FeaturesSection } from "@/components/home/features-section"
+import { ContributingSection } from "@/components/home/contributing-section"
+import { VisionSection } from "@/components/home/vision-section"
+import { TimelineSection } from "@/components/home/timeline-section"
+
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -15,13 +20,24 @@ export default function Home() {
             making expression more natural and accessible.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Button size="lg">Get Started</Button>
-            <Button size="lg" variant="outline">Learn More</Button>
+            <Button asChild size="lg">
+              <Link href="https://github.com/KaidenLarsen/silentbridge">View on GitHub</Link>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
+              <Link href="#vision">Learn More</Link>
+            </Button>
           </div>
         </div>
       </section>
       
+      {/* Timeline Section */}
+      <TimelineSection />
+      {/* Features Section */}
       <FeaturesSection />
+      {/* Vision Section */}
+      <VisionSection />
+      {/* Contributing Section */}
+      <ContributingSection />
     </main>
   )
 }

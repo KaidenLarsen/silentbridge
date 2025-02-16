@@ -10,9 +10,21 @@ import {
 } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import { siteConfig } from "@/config/site"
+import { scrollToSection } from "@/lib/utils"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false)
+
+  const handleNavClick = (href: string, e: React.MouseEvent) => {
+    if (href.startsWith('#')) {
+      e.preventDefault()
+      scrollToSection(href.substring(1))
+    } else if (href.startsWith('/#')) {
+      e.preventDefault()
+      scrollToSection(href.substring(2))
+    }
+    setIsOpen(false)
+  }
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -29,6 +41,7 @@ export function Navbar() {
                 key={item.href}
                 href={item.href}
                 className="transition-colors hover:text-foreground/80"
+                onClick={(e) => handleNavClick(item.href, e)}
               >
                 {item.title}
               </Link>
@@ -56,7 +69,7 @@ export function Navbar() {
                   key={item.href}
                   href={item.href}
                   className="text-muted-foreground transition-colors hover:text-foreground"
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => handleNavClick(item.href, e)}
                 >
                   {item.title}
                 </Link>
@@ -66,8 +79,11 @@ export function Navbar() {
         </Sheet>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <div className="w-full flex justify-end space-x-2">
-            <Button variant="outline">Sign In</Button>
-            <Button>Get Started</Button>
+            <Button asChild>
+              <Link href="https://github.com/KaidenLarsen/silentbridge">
+                Star on GitHub
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

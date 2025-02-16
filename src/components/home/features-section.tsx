@@ -19,7 +19,7 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="py-16 bg-muted/50">
+    <section id="features" className="py-16 bg-muted/50">
       <div className="container">
         <h2 className="text-3xl font-bold text-center mb-12">Key Features</h2>
         <div className="grid gap-6 md:grid-cols-3">
