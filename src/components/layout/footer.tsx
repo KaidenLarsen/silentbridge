@@ -46,10 +46,10 @@ export function Footer() {
           <div className="flex flex-col gap-2 text-sm">
             <h3 className="font-medium">Contact</h3>
             <Link 
-              href="mailto:contact@silent-bridge.com" 
+              href="mailto:kaiden.larsen@silent-bridge.org" 
               className="text-muted-foreground hover:text-foreground"
             >
-              contact@silent-bridge.com
+              kaiden.larsen@silent-bridge.org
             </Link>
           </div>
         </div>
